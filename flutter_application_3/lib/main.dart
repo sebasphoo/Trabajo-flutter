@@ -5,14 +5,11 @@ void main() {
 }
 
 class Myapp extends StatelessWidget {
-  const Myapp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "TITULO",
-      home: Scaffold(body: Text("hola")
-      ),
+      home: Scaffold(body: Text("hola")),
     );
   }
 }
